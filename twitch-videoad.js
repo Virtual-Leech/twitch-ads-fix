@@ -1,5 +1,4 @@
 /// twitch-videoad.js
-console.log("asdfgasdfgadfg");
 const origFetch = window.fetch;
 window.fetch = (url, init, ...args) => {
 	if (typeof url === "string") {
@@ -18,5 +17,3 @@ window.fetch = (url, init, ...args) => {
 	}
 	return origFetch(url, init, ...args);
 };
-console.log(orgiFetch);
-console.log("asdfgasdfgadfg");
